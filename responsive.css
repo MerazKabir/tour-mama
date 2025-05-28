@@ -44,16 +44,22 @@
 @media screen and (max-width: 1024px) {
   #banner-text h1{
     font-size: 38px;
+    text-align: center;
   }
   #banner-text{
     width: 100%;
+    text-align: center;
   }
   #banner{
     flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
   }
   #banner-img {
     width: 80%;
+  }
+  #banner .button{
+    justify-content: center;
   }
   .head p{
     font-size: 17px;
